@@ -34,10 +34,10 @@ const Navbar = () => {
 
             <div>
                 <ul className={`text-center md:flex md:items-center  ${isOpen ? 'block' : 'hidden'} md:block md:gap-10`}>
-                    <li><a href="#learn" className="block py-2 m-5 md:py-0 md:m-0">About</a></li>
-                    <li><a href="#build" className="block py-2 m-5 md:py-0 md:m-0">Collection</a></li>
-                    <li><a href="#explore" className="block py-2 m-5 md:py-0 md:m-0">FAQs</a></li>
-                    <li><a href="#explore" className="block py-2 m-5 md:py-0 md:m-0">Connect wallet</a></li>
+                    <li><a href="#about" className="block py-2 m-5 md:py-0 md:m-0">About</a></li>
+                    <li><a href="#collection" className="block py-2 m-5 md:py-0 md:m-0">Collection</a></li>
+                    <li><a href="#faq" className="block py-2 m-5 md:py-0 md:m-0">FAQs</a></li>
+                    <li><button href="#explore" className="block py-2 m-5 md:py-0 md:m-0">Connect wallet</button></li>
                     <li className="flex gap-5">
                         <FaXTwitter />
                         <FaDiscord />
