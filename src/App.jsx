@@ -4,7 +4,7 @@ import HeroSection from "./components/HeroSection"
 function App() {
 
   return (
-    <div>
+    <div className="bg-[#101111]">
        <Navbar />
        <HeroSection />
     </div>
